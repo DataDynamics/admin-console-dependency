@@ -18,11 +18,11 @@
 sudo ./install_deps.sh runtime
 
 # 2) 프로젝트 의존성 (소스는 git clone 등으로 별도 반입)
-./install_deps.sh backend  /path/to/gmes-admin-console-gui    # backend/.venv
-./install_deps.sh frontend /path/to/gmes-admin-console-gui    # frontend/node_modules
+./install_deps.sh backend  /path/to/admin-console-gui    # backend/.venv
+./install_deps.sh frontend /path/to/admin-console-gui    # frontend/node_modules
 
 # 3) 빌드 · 실행
-cd /path/to/gmes-admin-console-gui/frontend && pnpm build      # → frontend/out
+cd /path/to/admin-console-gui/frontend && pnpm build      # → frontend/out
 cd ../backend && ./run.sh
 ```
 
